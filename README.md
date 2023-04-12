@@ -1,0 +1,3 @@
+# Live_weather_app
+Stay up-to-date with the latest weather conditions in any city with our API-based weather app. Powered by OpenWeatherMap API, our app provides real-time information on temperature, humidity, wind speed, and other relevant weather parameters for any city in the world. Simply enter the name of the city you want to know the weather for, and our app will retrieve the data and display it in an easy-to-read format. Whether you're planning your day or traveling to a new destination, our weather app has got you covered.
+To visit the website you may log on to https://arunsaharan.github.io/Live_weather_app/
