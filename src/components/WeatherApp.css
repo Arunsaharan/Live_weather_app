@@ -1,0 +1,101 @@
+.App-wrap{
+    text-align: center;
+    width: max-content;
+    margin: 1% auto;
+    padding: 1% 2% 5%;
+    font-size: calc(8px + 2vmin);
+    background:linear-gradient(rgba(36, 36, 36, 0.7), rgba(36, 36, 36, 0.7)) ;
+    color: aliceblue;
+  }
+  .app-header{
+    margin-bottom: 25px;
+    font-family: 'Lobster Two', cursive;
+    font-size:4rem ;
+  }
+  
+  .fa-solid{
+      margin-right: 25px;
+  }
+  button , .searchBox{
+    margin: 25px;
+    border-radius: 8px;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+  }
+  button{
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    color: #213547;
+    background-color: #ffffff;
+  }
+  button:hover {
+    border-color: #646cff;
+  }
+  
+  .searchBox{
+    border-style: none;
+    outline-style: none;
+  }
+  
+  .description{
+    margin: 25px auto;
+  }
+  .humidity{
+    margin-top: 25px;
+  }
+  
+  .weather{
+      height: 100vh;
+      font-family: 'Jost', sans-serif;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+    
+    .thunderstorm {
+      background-image:linear-gradient(rgba(36, 36, 36, 0.3), rgba(36, 36, 36, 0.3)), url(/public/images/thunderstorm.jpg);
+    }
+    
+    .drizzle{
+      background-image:linear-gradient(rgba(235, 238, 184, 0.271), rgba(235, 238, 184, 0.271)), url(/public/images/drizzle.jpg);
+    }
+    
+    .rain{
+      background-image:linear-gradient(rgba(36, 36, 36, 0.3), rgba(36, 36, 36, 0.3)), url(/public/images/rain.jpg);
+    }
+    
+    .snow{
+      background-image:linear-gradient(rgba(235, 238, 184, 0.271), rgba(235, 238, 184, 0.271)), url(/public/images/snow.jpg);
+    }
+    
+    .fog{
+      background-image:linear-gradient(rgba(235, 238, 184, 0.4), rgba(235, 238, 184, 0.4)), url(/public/images/fog.jpg);
+    }
+    
+    .clouds{
+      background-image:linear-gradient(rgba(235, 238, 184, 0.271), rgba(235, 238, 184, 0.271)), url(/public/images/clouds.jpg);
+    }
+    
+    .clear{
+      background-image:linear-gradient(rgba(36, 36, 36, 0.3), rgba(36, 36, 36, 0.3)), url(/public/images/clear.jpg);
+    }
+  
+  
+  @media (max-width:500px) {
+  
+    .App-wrap{
+      width: 85%;
+    }
+    .app-header{
+      
+      font-size: calc(26px + 2vmin);
+
+    }
+    .searchBox{
+      width: 80%;
+    }
+  }  
+  
